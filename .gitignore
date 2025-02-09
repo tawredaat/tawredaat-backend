@@ -21,7 +21,6 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 .env
-composer.json
 composer.lock
 /.idea/*
 /.idea/workspace.xml
