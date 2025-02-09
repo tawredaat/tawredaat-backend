@@ -14,7 +14,11 @@ public/hot
 public_html/storage
 public_html/hot
 
-storage/
+storage/app
+storage/cacert.pem
+storage/oauth-private.key
+storage/oauth-public.key
+storage/logs  
 storage/*.key
 Homestead.yaml
 Homestead.json
