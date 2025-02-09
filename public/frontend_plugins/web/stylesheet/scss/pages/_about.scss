@@ -1,0 +1,105 @@
+.about-holder{
+    background-color: #f3f3f3; 
+    .banner-holder{
+        img{
+            width: 100%;
+            max-height: 75vh;
+        }
+    }
+    .about-content{
+        .about--article{
+            h1{
+                font-size: 40px;
+                font-weight: bold;
+                color: #212529;
+                text-transform: capitalize;
+                margin: 50px 0 30px 0;
+            }
+            p{
+                line-height: 1.4;
+                font-size: 23px;
+                padding-bottom: 80px;
+                color: #212529;
+                a{
+                    color: $primary;
+                    margin-top: -7px;
+                    display: inline-block;
+                }
+            }
+            @include mq("tablet"){
+                h1{
+                    font-size: 33px;
+                    margin: 35px 0 20px 0;
+                }
+                p{
+                    font-size: 20px;
+                    padding-bottom: 40px; 
+                }
+            }
+        }
+    }
+}
+
+.contactus-holder{
+    background-color: #f3f3f3; 
+    .banner-holder{
+        img{
+            width: 100%;
+            max-height: 75vh;
+        }
+    }
+    .contactus-details{
+        margin-bottom: 45px;
+    }
+    .contactus-content{
+        padding-top: 30px;
+        h2{
+            font-size: 40px;
+            font-weight: bold;
+            color: $primary;
+            margin-bottom: 25px;
+        }
+        .info-row-group{
+            display: flex;
+            align-items: center;
+            .info-row{
+                margin-right: 50px;
+                body.rtl &{
+                    margin-right: 0;
+                    margin-left: 50px;
+                }
+            }
+            @include mq("tablet"){
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+        .info-row{
+            display: flex;
+            align-items: center;
+            margin-bottom: 7px;
+            @include mq("tablet"){
+                margin-bottom: 12px;
+            }
+            i{
+                font-size: 24px;
+                margin-right: 16px;
+                body.rtl &{
+                    margin-right: 0;
+                    margin-left: 16px;
+                }
+            }
+            p,a{
+                line-height: 1.4;
+                font-size: 23px;
+                color: #212529;
+                text-decoration: none !important; 
+                font-weight: 600;
+                body.rtl &{
+                    margin-left: 0;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+
+/************ spacing ********************/
+
+@for $i from 0 through 10 {
+    $value: $i * 5; 
+    .mr-#{$value} { margin-right : #{$value}px; body.rtl & { margin-left : #{$value}px ; margin-right : 0;}}
+    .ml-#{$value} { margin-left : #{$value}px; body.rtl & { margin-right : #{$value}px ; margin-left : 0;}}
+    .mx-#{$value} { margin-left : #{$value}px; margin-right : #{$value}px;}
+    .mt-#{$value} { margin-top : #{$value}px;}
+    .mb-#{$value} { margin-bottom : #{$value}px;}
+    .pr-#{$value} { padding-right : #{$value}px; body.rtl & { padding-left : #{$value}px; padding-right : 0;}}
+    .pl-#{$value} { padding-left : #{$value}px; body.rtl & { padding-right : #{$value}px; padding-left : 0;}}
+    .px-#{$value} { padding-left : #{$value}px; padding-right : #{$value}px;}
+    .pt-#{$value} { padding-top : #{$value}px;}
+    .pb-#{$value} { padding-bottom : #{$value}px;} 
+}

@@ -1,0 +1,687 @@
+[29-Jul-2024 22:15:24 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[29-Jul-2024 22:15:52 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[29-Jul-2024 22:16:20 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[29-Jul-2024 22:18:15 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[30-Jul-2024 00:24:14 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[05-Aug-2024 00:42:30 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[04-Aug-2024 21:45:32 UTC] PHP Fatal error:  Allowed memory size of 2147483648 bytes exhausted (tried to allocate 134217736 bytes) in phar:///usr/local/bin/composer1.phar/src/Composer/DependencyResolver/RuleSet.php on line 84
+[05-Aug-2024 00:45:58 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(130): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(106): Illuminate\Foundation\PackageManifest->build()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): Illuminate\Foundation\PackageManifest->getManifest()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#11 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[05-Aug-2024 00:46:23 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(130): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(106): Illuminate\Foundation\PackageManifest->build()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): Illuminate\Foundation\PackageManifest->getManifest()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#11 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Aug-2024 20:49:57 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Aug-2024 20:50:29 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Aug-2024 17:53:09 UTC] PHP Fatal error:  Allowed memory size of 2147483648 bytes exhausted (tried to allocate 134217736 bytes) in phar:///usr/local/bin/composer1.phar/src/Composer/DependencyResolver/RuleSet.php on line 84
+[06-Aug-2024 20:53:19 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Aug-2024 20:53:21 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Aug-2024 20:53:28 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:29:30 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:29:47 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:34:33 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:34:45 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:35:58 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1289
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:36:12 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1289
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:36:23 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1289
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:37:45 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:37:47 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:38:01 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:38:44 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:40:06 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:40:43 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(130): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(106): Illuminate\Foundation\PackageManifest->build()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): Illuminate\Foundation\PackageManifest->getManifest()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#11 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:42:18 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(130): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(106): Illuminate\Foundation\PackageManifest->build()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): Illuminate\Foundation\PackageManifest->getManifest()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#11 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Aug-2024 22:43:46 UTC] PHP Fatal error:  Allowed memory size of 2147483648 bytes exhausted (tried to allocate 134217736 bytes) in phar:///usr/local/bin/composer1.phar/src/Composer/DependencyResolver/RuleSet.php on line 84
+[07-Aug-2024 01:47:48 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(130): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(106): Illuminate\Foundation\PackageManifest->build()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): Illuminate\Foundation\PackageManifest->getManifest()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#11 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 01:48:01 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(444): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(130): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(106): Illuminate\Foundation\PackageManifest->build()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): Illuminate\Foundation\PackageManifest->getManifest()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#11 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#12 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:22:32 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:22:52 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:22:59 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:28:48 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:29:59 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1290
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:30:25 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1303
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:30:57 Africa/Cairo] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1319
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:32:09 Africa/Cairo] PHP Fatal error:  During inheritance of Countable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1243
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:33:04 Africa/Cairo] PHP Fatal error:  During inheritance of IteratorAggregate: Uncaught ErrorException: Return type of Illuminate\Support\Collection::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1233
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:33:28 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 02:34:13 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 22:11:53 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 22:20:46 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 22:27:00 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[07-Aug-2024 22:27:07 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[11-Aug-2024 00:20:30 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[02-Sep-2024 00:11:40 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/darkgrey-hare-803818.hostingersite.com/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[02-Oct-2024 00:20:49 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/stage.tawredaat.online/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[08-Oct-2024 22:33:50 Africa/Cairo] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of Illuminate\Support\Collection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php:727
+Stack trace:
+#0 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/composer/ClassLoader.php(571): include('/home/u73979788...')
+#2 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/u739797882/domains/stage.tawredaat.online/public_html/new/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#11 {main} in /home/u739797882/domains/stage.tawredaat.online/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11

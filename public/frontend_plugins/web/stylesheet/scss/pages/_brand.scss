@@ -1,0 +1,628 @@
+.brand-wrapper {
+  background-color: #f3f3f3;
+  .brand-content {
+    padding-bottom: 40px;
+    .brand-info-wrapper {
+      > div {
+        margin-bottom: 22px;
+        border: 1.5px solid #ebeced;
+        box-shadow: 0 5px 10px 0 rgba(194, 193, 193, 0.09);
+      }
+      .brand-logo-holder {
+        height: 100%;
+        min-height: 23vh;
+        max-height: 23vh;
+        background-color: #fff;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      .details-holder {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #fff;
+        > div {
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+          line-height: 1.37;
+          color: $dark-glow;
+          img {
+            margin-right: 5px;
+            body.rtl &{
+              margin-left: 5px;
+              margin-right: 0;
+            }
+          }
+          &.name {
+            flex-direction: row-reverse;
+            h1{
+              font-size: 18px;
+              line-height: 1.37;
+              color: $dark-glow;
+            }
+            img {
+              margin-left: 8px;
+              width: 14px; 
+              body.rtl &{
+                margin-right: 8px;
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.company-wrapper {
+  background-color: #f3f3f3;
+  .company-content {
+    padding-bottom: 40px;
+    .banner-holder {
+      height: 38vh;
+      max-height: 38vh;
+      min-height: 38vh;
+      background-color: #fff;
+      border: 1.5px solid #ebeced;
+      margin-bottom: 25px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    .company-info-wrapper {
+      .details-holder {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 16px;
+        background-color: #fff;
+        border: 1.5px solid #ebeced;
+        box-shadow: 0 5px 10px 0 rgba(194, 193, 193, 0.09);
+        margin-bottom: 20px;
+        > div {
+          &:first-of-type {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            text-align: center;
+            .logo {
+              max-width: 130px;
+              max-height: 130px;
+            }
+            .company-name {
+              display: flex;
+              flex-direction: column;
+              justify-content: center; 
+              width: 100%;
+              align-items: center;
+              h3, h1 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color: $dark-glow;
+                font-weight: 500;
+                text-transform: capitalize;
+                font-size: 24px;
+              }
+              a{
+                max-width: 230px; 
+                @include mq("phablet") {
+                  margin: 0 !important;
+                  margin-top: 10px !important;
+                  max-width: 90%;
+                }
+              }
+            }
+            @include mq("phablet") {
+              flex-direction: column;
+              align-items: center;
+            }
+          }
+          &:last-of-type {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            > * {
+              display: flex;
+              align-items: center;
+              font-size: 14px;
+              color: $dark-glow;
+              line-height: 1.37;
+              min-height: 27px;
+              img {
+                @extend .mr-10;
+                width: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.product-wrapper {
+  background-color: #f3f3f3;
+  .product-content {
+    padding-bottom: 40px;
+    @include mq("tablet"){
+      padding: 0 20px;
+    }
+    .col-12{
+      padding: 0;
+    }
+    .view-proudct-wrapper {
+      .slider-multi-img {
+        .slick-track {
+          display: flex;
+          > div {
+            margin-bottom: 10px;
+            max-height: 24vh;
+            height: 24vh;
+            border: 1.5px solid #ebeced;
+            box-shadow: 0 5px 10px 0 rgba(194, 193, 193, 0.09);
+            outline: none;
+            margin-right: 2px;
+            cursor: pointer;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+        @include mq("tablet") { 
+          padding-right: 0;
+          body.rtl &{
+            padding-left: 0;
+            padding-right: initial;
+          }
+        }        
+      }
+      .slider-single-img {
+        margin-right: auto !important;
+        margin-bottom: 0 !important;
+        padding-right: 40px;
+        padding-left: 0;
+        body.rtl &{
+          margin-left: auto !important;
+          padding-left: 40px;
+          padding-right: 0;
+          @include mq("tablet"){
+            margin: auto !important;
+          }
+        }
+        
+        @include mq("tablet"){
+          padding: 0 !important;
+          margin: auto !important;
+        } 
+        .slick-track {
+          width: 100% !important;
+          > div {
+            outline: none;
+            border: 1.5px solid #ebeced;
+            box-shadow: 0 5px 10px 0 rgba(194, 193, 193, 0.09);
+            height: 70vh;
+            background-color: #FFF;
+            width: 100% !important;
+            @include mq("tablet"){
+              height: auto;
+              max-height: 70vh;
+            }
+            img {
+              width: 88%; 
+              height: 100%;
+              object-fit: contain; 
+              margin : auto;
+            @include mq("tablet"){
+              object-fit: none;
+              width: 100%;
+              height: 100%;
+            }
+            }
+          }
+        }
+      }
+    }
+
+    .seller-list-wrapper {
+      background-color: #fff;
+      box-shadow: 0 5px 10px 0 rgba(194, 193, 193, 0.09);
+      border: 1.5px solid #ebeced;
+      padding: 30px 40px 30px 20px;
+      margin-bottom: 20px;
+      body.rtl &{
+        padding: 30px 20px 30px 40px;
+      }
+      @include mq("tablet") {
+        padding: 20px 0 0 15px;
+        body.rtl &{
+          padding: 20px 15px 0 0;
+        }
+        >div{
+          border-bottom: 2px solid;
+          margin-bottom: 20px;
+          &:last-of-type{
+            border-bottom: 0;
+          }
+          > * {
+            margin-bottom: 20px;
+            text-align: center;
+          }
+
+        }
+      }
+      > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 25px;
+        &:not(:first-of-type){
+          h5{
+            display: none;
+          }
+        }
+        &:last-of-type{
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+        > div {
+          text-align: center;
+          color: $dark-glow;
+          @extend .mr-15;
+          width: 150px;
+        }
+        .stock-holder{
+          h5{
+            margin-top: -20px;
+          }
+        }
+        h5 {
+          text-transform: uppercase;
+          font-weight: 500;
+          font-size: 20px;
+          margin-bottom: 15px;
+          color: #646567;
+        }
+        .logo-holder {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+          min-height: 80px;
+          max-width: 80px;
+          max-height: 80px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+        .seller-name {
+          text-align: left;
+          body.rtl &{
+            text-align: right;
+          }
+          .name{
+            text-transform: capitalize;
+          }
+        }
+        .price {
+          text-align: left;
+          body.rtl &{
+            text-align: right;
+          }
+        }
+        .quantity-holder {
+        }
+        .action-holder {
+          display: inline-flex;
+          align-items: center;
+          align-self: flex-end;
+          padding-bottom: 5px;
+          width: auto;
+          a{
+            min-width: 180px;
+            @include mq("tablet") { 
+              min-width: 140px;
+            }
+          }
+        }
+      }
+    }
+
+    .product-available-list{
+      margin-top: 25px;
+    }
+    .product-available-wrapper{
+      background-color: #fff;
+      box-shadow: 0 5px 10px 0 rgba(194, 193, 193, 0.09);
+      border: 1.5px solid #ebeced;
+      padding: 30px 40px;
+      margin-bottom: 20px;
+      .product-available-card{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+        border-radius: 6px; 
+        padding: 12px 25px;  
+        margin-bottom: 30px;
+        @include mq("tablet") {
+          flex-direction: column;
+          margin-bottom: 20px; 
+        }
+        .product-available--info{
+          display: flex;
+          align-items: center;
+        }
+        .img-holder{
+          width: 170px;
+          height: 120px;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+        .product-available__name{
+          color: #2e2e2e;
+          text-transform: capitalize;
+          font-weight: 500;
+          font-size: 24px;
+          margin-left: 35px;
+          body.rtl &{
+            margin-left: 0;
+            margin-right: 35px;
+          }
+        }
+      }
+      .product-available--contact{
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        > a{
+          max-width: 230px; 
+          min-width: 230px;
+          margin-right: 20px;
+          body.rtl &{
+            margin-right: 0;
+            margin-left: 20px;
+          }
+          &:last-of-type{
+            margin: 0 !important; 
+          }
+        }
+        @include mq("tablet") {
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+          > a{
+            margin: 0;
+            margin-bottom: 16px;
+            max-width: 90%;
+          }
+        }
+      }
+      @include mq("tablet") {
+        padding: 20px;
+      }
+    }
+
+  }
+}
+
+// shared between pages
+.side-content-wrapper {
+  .box {
+    border: 1.5px solid #ebeced;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 5px 10px 0 rgba(194, 193, 193, 0.09);
+    h3 {
+      color: $dark-glow;
+      text-transform: capitalize;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ebeced;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+    a {
+      width: 100%;
+    }
+    &.google-box-box {
+      min-height: 200px;
+    }
+  }
+  .download-doc {
+    width: 100%;
+    margin-bottom: 20px;
+    &::before {
+      content: url(../../images/cloud-download.png);
+      @extend .mr-10;
+    }
+  }
+}
+
+.user-box-adv{
+  padding: 0 !important;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+}
+
+.product-action-btn{
+  text-align: center;
+  padding : 0 14px; 
+      .yellow-rounded{
+        background-color: #F7CB14; 
+        color : $primary;
+        border-radius: 25px;
+        width: 210px;
+        .text, .tel{
+          font-size: 18px; 
+          font-weight: 600;
+          @include mq("tablet"){
+          font-size: 16px;
+          }
+        }
+        @include mq("tablet"){
+          width: 100%;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+        }
+      }  
+      .primary-rounded{
+        border-radius: 25px;
+        width: 210px;
+        font-size: 17px; 
+        font-weight: 600;
+        @include mq("tablet"){
+          width: 100%; 
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+          font-size: 16px;
+        }
+      }  
+      img{
+        max-width: 31px; 
+        padding-bottom: 0 !important;
+        width: 31px !important;
+        @include mq("tablet"){
+          width: 28px !important;
+        } 
+      } 
+      .add-to-cart-btn{
+        @include mq("tablet"){ 
+          font-size: 14px;
+        }
+      }
+}
+
+
+.brand-img-card{
+  width: 100px !important;
+  object-fit: contain;
+}
+
+.product-des-wrapper {
+  background-color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(194, 193, 193, 0.09);
+  border: 1.5px solid #ebeced;
+  padding: 30px 40px;
+  margin-bottom: 20px;
+  h4 {
+    color: $dark-glow;
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 20px; 
+  }
+  p{
+    line-height: 1.5;
+    font-size: 17px;
+  }
+}
+
+.product-spec-wrapper {
+  background-color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(194, 193, 193, 0.09);
+  border: 1.5px solid #ebeced;
+  padding: 30px 40px;
+  margin-bottom: 20px;
+  h4 {
+    color: $dark-glow;
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  > div {
+    > div {
+      min-height: 25px;
+      margin-bottom: 10px;
+      text-transform: capitalize; 
+      font-size: 17px;
+      line-height: 1.3;
+      &:nth-child(odd) {
+        font-weight: 500;
+        color: #646567;
+      }
+    }
+  }
+}
+
+.product-details-wrapper {
+  background-color: #FFF;
+  border: 1.5px solid #ebeced;
+  h3, h1 {
+    color: $dark-glow;
+    text-transform: capitalize;
+    font-weight: 500; 
+    font-size: 24px; 
+  }
+  .sku {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+    span {
+      @extend .ml-10;
+    }
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  .share-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    img {
+      width: 40px;
+      height: 38px;
+      margin-right: 20px;
+      cursor: pointer;
+      background-color: #4267b2;
+      padding: 5px;
+      padding-bottom: 0;
+      body.rtl &{
+        margin-left: 20px;
+        margin-right: 0;
+      }
+    }
+  }
+  .price{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 40px; 
+  span{ 
+    color: #23408d;
+  }
+  }
+  .add-btn-holder{  
+    display: flex;
+    margin: auto !important;
+    @include mq("tablet"){
+      width: 100%;
+    }
+  }
+} 
+
+.single-shop-product-page{
+  .primary-dark-fill{
+    white-space: nowrap; 
+  }
+}

@@ -1,0 +1,63 @@
+
+//************************** COLORS **************************//
+
+//primary color 
+// $primary:#0056b8;
+$primary:#23408D;
+$primary-2: #23408D; 
+// $primary:#1d94c4;
+// $primary-2: #1d94c4;
+$primary-3: #23408D;  
+// $primary-2: #004dda;
+$secondary:#19b453;  
+$third_color:#646567; 
+$fourth_color:#f86659;    
+$dark-glow:#2e2e2e;
+$canary : #F7CB14;
+ 
+/*other colors*/
+$white:#fff;
+$black:#646567; 
+$validation:#d50000;
+ 
+// start range slider var
+$slider-line-height: 20px !default; 
+$slider-border-radius: 4px !default;
+
+
+//************************** FONTS **************************//
+
+@font-face {
+    font-family: openSans;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: openSans;
+    font-weight: bold; 
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: openSans;
+    font-weight: 600; 
+    src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: openSans;
+    font-weight: 900; 
+    src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "cairo";
+    src: url(../fonts/Cairo/Cairo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "cairo";
+    font-weight: bold; 
+    src: url(../fonts/Cairo/Cairo-Bold.ttf);
+}
+

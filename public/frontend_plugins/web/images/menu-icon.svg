@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="9" viewBox="0 0 22 9">
+    <defs>
+        <style>
+            .cls-1{fill:#23408D}
+        </style>
+    </defs>
+    <g id="Layer" transform="translate(0 -.439)">
+        <path id="menu" d="M1 9c-.553 0-1-.335-1-.75s.447-.75 1-.75h20c.553 0 1 .335 1 .75S21.553 9 21 9zm0-3.75c-.553 0-1-.336-1-.751s.447-.75 1-.75h20c.553 0 1 .336 1 .75s-.447.751-1 .751zM1 1.5c-.553 0-1-.335-1-.75S.447 0 1 0h20c.553 0 1 .335 1 .75s-.447.75-1 .75z" class="cls-1" transform="translate(0 .439)"/>
+    </g>
+</svg>

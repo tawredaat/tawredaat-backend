@@ -1,0 +1,136 @@
+.shop-page-wrapper{
+    width: 80%;
+    margin: auto;
+
+    @include mq("tablet"){
+        width: 95%; 
+    }
+}
+
+.shop-slider-wrapper{
+    height: 70vh;
+    @include mq("tablet"){
+      height: auto;  
+  } 
+}
+
+.shop-wide{
+    width: 80%;
+    margin: auto;
+
+    @include mq("tablet"){
+        width: 95%;  
+    } 
+}
+
+.shop-category--list{
+    display: flex;
+    max-width: 100%;
+    overflow : auto;
+    height: 300px;
+    .category-card-holder{ 
+      // margin-right: 12px; 
+      min-width: 250px;
+      opacity: 0.5; 
+      user-select: none;
+      background-color: #fff;
+      transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      margin-right: 20px;
+      margin-bottom: 4px; 
+      body.rtl &{
+          margin-left: 20px;
+          margin-right: 0;
+        }
+      &:hover,&.active{
+        opacity: 1;
+        transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      }
+    }
+    &::-webkit-scrollbar {
+      height: 10px; 
+    }
+  
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+  
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: $primary;
+      // width: 6px;
+      border-radius: 3px;
+    }
+  }
+
+  .shop-products-wrapper{
+     .shop-category-title{
+         margin: 5vw 0;
+     } 
+     .shop-category--list{
+         margin-bottom: 4vw; 
+     }
+  }
+
+  .add-address-wrapper{
+      h3{
+        font-size: 24px;
+        font-weight: bold;
+        color: #000000;
+        margin-bottom: 30px; 
+      }
+      .add-address-body{
+          padding: 14px 24px 24px 24px;
+          background-color: #FFF;
+          margin-bottom: 4vw; 
+          .form-inpt-holder{ 
+
+          }
+          .form-content-holder{
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(290px, 300px));
+              gap : 30px; 
+              label{
+                font-size: 14px;
+                font-weight: bold;
+                color: #000000;
+                margin-bottom: 10px;
+              } 
+          }
+      }
+  }
+
+  .product-shop-details-wrapper{
+    padding-bottom: 20px;
+    // height: fit-content; 
+    display: flex;
+    flex-direction: column;
+    .product-action-btn{
+      margin-top: auto !important;
+    }
+  }
+ 
+  .best-seller-shop-products{
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  .featured-shop-products{
+    @include mq("tablet"){
+      .slick-list{
+        margin: 0 -20px; 
+      }
+  } 
+  }
+  .best-seller-shop-products-slider{
+    @include mq("tablet"){
+      margin-bottom: 60px;
+      .slick-list{
+        margin: 0 -20px;
+      }
+  }  
+  }
+  
+
+
+  

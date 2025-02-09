@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer" width="13.75" height="13.75" viewBox="0 0 13.75 13.75">
+    <defs>
+        <style>
+            .cls-1{fill:#1e94c4;fill-rule:evenodd}
+        </style>
+    </defs>
+    <path id="Path_74" d="M13.417 8.159a.625.625 0 0 1-.044.856l-4.587 4.294a.744.744 0 0 1-1.038-.062l-1.875-1.676a.626.626 0 1 1 .831-.937l1.669 1.412 4.175-3.937a.625.625 0 0 1 .869.05z" class="cls-1" data-name="Path 74" transform="translate(-2.748 -3.609)"/>
+    <path id="Path_75" d="M7.875 2.25A5.625 5.625 0 1 0 13.5 7.875 5.625 5.625 0 0 0 7.875 2.25zM1 7.875a6.875 6.875 0 1 1 6.875 6.875A6.875 6.875 0 0 1 1 7.875z" class="cls-1" data-name="Path 75" transform="translate(-1 -1)"/>
+</svg>
